@@ -1,0 +1,384 @@
+[1610224993.848][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 47794
+[1610224993.849][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610224994.999][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\korisnik\\Desktop\\IntellijProjekti\\demo\\build\\downloads\\1610224991406_12552_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\korisnik\\Desktop\\IntellijProjekti\\demo\\build\\downloads\\1610224991406_12552_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1610224995.005][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\korisnik\\Desktop\\IntellijProjekti\\demo\\build\\downloads\\1610224991406_12552_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610224995.006][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610224995.007][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\korisnik\AppData\Local\Temp\scoped_dir14932_744333581" data:,
+[1610224996.314][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610224998.344][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610225000.541][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\korisnik\\AppData\\Local\\Temp\\scoped_dir14932_744333581"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49638"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e6f5352647067e83f781e7eb2236fafa"
+}
+[1610225000.707][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND MaximizeWindow {
+
+}
+[1610225000.707][INFO]: Waiting for pending navigations...
+[1610225000.710][INFO]: Done waiting for pending navigations. Status: ok
+[1610225000.861][INFO]: Waiting for pending navigations...
+[1610225000.862][INFO]: Done waiting for pending navigations. Status: ok
+[1610225000.862][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE MaximizeWindow {
+   "height": 754,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1610225000.870][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1610225000.870][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE SetTimeouts
+[1610225000.892][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND Navigate {
+   "url": "https://technoshop.ba/"
+}
+[1610225000.892][INFO]: Waiting for pending navigations...
+[1610225000.897][INFO]: Done waiting for pending navigations. Status: ok
+[1610225001.333][INFO]: Waiting for pending navigations...
+[1610225005.446][INFO]: Done waiting for pending navigations. Status: ok
+[1610225005.447][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE Navigate
+[1610225005.639][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(@href, 'https://technoshop.ba/proizvodi/mali-kucanski-aparati') and @title='Mali kućanski aparati']"
+}
+[1610225005.639][INFO]: Waiting for pending navigations...
+[1610225005.641][INFO]: Done waiting for pending navigations. Status: ok
+[1610225005.669][INFO]: Waiting for pending navigations...
+[1610225005.671][INFO]: Done waiting for pending navigations. Status: ok
+[1610225005.671][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b5a0df57-2bbd-40b9-aeed-8b3006c82345"
+}
+[1610225005.708][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "b5a0df57-2bbd-40b9-aeed-8b3006c82345",
+            "element-6066-11e4-a52e-4f735466cecf": "b5a0df57-2bbd-40b9-aeed-8b3006c82345"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1610225005.708][INFO]: Waiting for pending navigations...
+[1610225005.710][INFO]: Done waiting for pending navigations. Status: ok
+[1610225005.845][INFO]: Waiting for pending navigations...
+[1610225005.846][INFO]: Done waiting for pending navigations. Status: ok
+[1610225005.846][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE PerformActions
+[1610225005.872][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225005.873][INFO]: Waiting for pending navigations...
+[1610225005.874][INFO]: Done waiting for pending navigations. Status: ok
+[1610225005.910][INFO]: Waiting for pending navigations...
+[1610225005.910][INFO]: Done waiting for pending navigations. Status: ok
+[1610225005.910][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225006.140][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225006.140][INFO]: Waiting for pending navigations...
+[1610225006.146][INFO]: Done waiting for pending navigations. Status: ok
+[1610225006.154][INFO]: Waiting for pending navigations...
+[1610225006.155][INFO]: Done waiting for pending navigations. Status: ok
+[1610225006.155][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225006.373][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225006.373][INFO]: Waiting for pending navigations...
+[1610225006.582][INFO]: Done waiting for pending navigations. Status: ok
+[1610225006.594][INFO]: Waiting for pending navigations...
+[1610225006.595][INFO]: Done waiting for pending navigations. Status: ok
+[1610225006.595][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225006.805][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225006.805][INFO]: Waiting for pending navigations...
+[1610225006.806][INFO]: Done waiting for pending navigations. Status: ok
+[1610225006.816][INFO]: Waiting for pending navigations...
+[1610225006.818][INFO]: Done waiting for pending navigations. Status: ok
+[1610225006.818][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225007.027][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225007.028][INFO]: Waiting for pending navigations...
+[1610225007.717][INFO]: Done waiting for pending navigations. Status: ok
+[1610225007.775][INFO]: Waiting for pending navigations...
+[1610225007.777][INFO]: Done waiting for pending navigations. Status: ok
+[1610225007.777][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225007.985][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225007.986][INFO]: Waiting for pending navigations...
+[1610225007.986][INFO]: Done waiting for pending navigations. Status: ok
+[1610225007.993][INFO]: Waiting for pending navigations...
+[1610225007.994][INFO]: Done waiting for pending navigations. Status: ok
+[1610225007.994][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225008.201][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225008.201][INFO]: Waiting for pending navigations...
+[1610225008.202][INFO]: Done waiting for pending navigations. Status: ok
+[1610225008.208][INFO]: Waiting for pending navigations...
+[1610225008.209][INFO]: Done waiting for pending navigations. Status: ok
+[1610225008.209][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225008.416][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225008.416][INFO]: Waiting for pending navigations...
+[1610225008.417][INFO]: Done waiting for pending navigations. Status: ok
+[1610225008.424][INFO]: Waiting for pending navigations...
+[1610225008.424][INFO]: Done waiting for pending navigations. Status: ok
+[1610225008.424][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225008.633][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225008.633][INFO]: Waiting for pending navigations...
+[1610225008.634][INFO]: Done waiting for pending navigations. Status: ok
+[1610225008.641][INFO]: Waiting for pending navigations...
+[1610225008.642][INFO]: Done waiting for pending navigations. Status: ok
+[1610225008.642][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225008.850][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225008.850][INFO]: Waiting for pending navigations...
+[1610225008.851][INFO]: Done waiting for pending navigations. Status: ok
+[1610225008.857][INFO]: Waiting for pending navigations...
+[1610225008.858][INFO]: Done waiting for pending navigations. Status: ok
+[1610225008.858][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225009.065][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225009.065][INFO]: Waiting for pending navigations...
+[1610225009.065][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.073][INFO]: Waiting for pending navigations...
+[1610225009.074][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.074][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225009.281][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225009.281][INFO]: Waiting for pending navigations...
+[1610225009.282][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.288][INFO]: Waiting for pending navigations...
+[1610225009.289][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.289][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225009.495][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225009.495][INFO]: Waiting for pending navigations...
+[1610225009.496][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.503][INFO]: Waiting for pending navigations...
+[1610225009.504][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.504][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225009.710][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nav\\-category\\-usisvaci"
+}
+[1610225009.710][INFO]: Waiting for pending navigations...
+[1610225009.711][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.717][INFO]: Waiting for pending navigations...
+[1610225009.718][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.718][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nav\-category\-usisvaci"}
+  (Session info: chrome=87.0.4280.88)
+[1610225009.928][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1610225009.928][INFO]: Waiting for pending navigations...
+[1610225009.929][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.947][INFO]: Waiting for pending navigations...
+[1610225009.947][INFO]: Done waiting for pending navigations. Status: ok
+[1610225009.947][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE ExecuteScript "\u003Chtml lang=\"ba\" data-default_lang=\"ba\" data-currency_code=\"BAM\" data-currency_display=\"%s \u003Cabbr>KM\u003C/abbr>\" data-currency_exchange=\"1\" style=\"\" class=\"js flexbox flexboxlegacy canvas canvastext webg..."
+[1610225010.003][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND Screenshot {
+
+}
+[1610225010.004][INFO]: Waiting for pending navigations...
+[1610225010.004][INFO]: Done waiting for pending navigations. Status: ok
+[1610225010.416][INFO]: Waiting for pending navigations...
+[1610225010.417][INFO]: Done waiting for pending navigations. Status: ok
+[1610225010.417][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKbCAYAAAAe6NH2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X1cVGXe+PHP8DCAgiDoymyuiIkPgBazmmjFKIqFlBtaS+mqlWz3Jt2bpkndZd2btqWbSbvJtt7YlpbppqIVWvmMJfjwGzJAUhTEMjADQUBggJnfHzOMPAwwI..."
+[1610225010.525][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND Screenshot {
+
+}
+[1610225010.525][INFO]: Waiting for pending navigations...
+[1610225010.526][INFO]: Done waiting for pending navigations. Status: ok
+[1610225010.917][INFO]: Waiting for pending navigations...
+[1610225010.918][INFO]: Done waiting for pending navigations. Status: ok
+[1610225010.918][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKbCAYAAAAe6NH2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X1cVGXe+PHP8DCAgiDoymyuiIkPgBazmmjFKIqFlBtaS+mqlWz3Jt2bpkndZd2btqWbSbvJtt7YlpbppqIVWvmMJfjwGzJAUhTEMjADQUBggJnfHzOMPAwwI..."
+[1610225010.982][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1610225010.982][INFO]: Waiting for pending navigations...
+[1610225010.983][INFO]: Done waiting for pending navigations. Status: ok
+[1610225010.996][INFO]: Waiting for pending navigations...
+[1610225010.997][INFO]: Done waiting for pending navigations. Status: ok
+[1610225010.997][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE ExecuteScript "\u003Chtml lang=\"ba\" data-default_lang=\"ba\" data-currency_code=\"BAM\" data-currency_display=\"%s \u003Cabbr>KM\u003C/abbr>\" data-currency_exchange=\"1\" style=\"\" class=\"js flexbox flexboxlegacy canvas canvastext webg..."
+[1610225012.056][INFO]: [e6f5352647067e83f781e7eb2236fafa] COMMAND Quit {
+
+}
+[1610225012.642][INFO]: [e6f5352647067e83f781e7eb2236fafa] RESPONSE Quit

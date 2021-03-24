@@ -1,0 +1,389 @@
+[1610306568.086][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 24355
+[1610306568.086][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610306569.079][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\korisnik\\Desktop\\IntellijProjekti\\demo\\build\\downloads\\1610306565878_14084_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\korisnik\\Desktop\\IntellijProjekti\\demo\\build\\downloads\\1610306565878_14084_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1610306569.085][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\korisnik\\Desktop\\IntellijProjekti\\demo\\build\\downloads\\1610306565878_14084_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610306569.086][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610306569.092][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\korisnik\AppData\Local\Temp\scoped_dir10388_90169307" data:,
+[1610306570.182][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610306572.360][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610306574.371][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\korisnik\\AppData\\Local\\Temp\\scoped_dir10388_90169307"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50197"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "08227f42df3a6774b23298fee98bac32"
+}
+[1610306574.495][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND MaximizeWindow {
+
+}
+[1610306574.495][INFO]: Waiting for pending navigations...
+[1610306574.498][INFO]: Done waiting for pending navigations. Status: ok
+[1610306574.616][INFO]: Waiting for pending navigations...
+[1610306574.617][INFO]: Done waiting for pending navigations. Status: ok
+[1610306574.617][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE MaximizeWindow {
+   "height": 754,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1610306574.624][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1610306574.625][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE SetTimeouts
+[1610306574.639][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND Navigate {
+   "url": "https://technoshop.ba/"
+}
+[1610306574.639][INFO]: Waiting for pending navigations...
+[1610306574.640][INFO]: Done waiting for pending navigations. Status: ok
+[1610306575.087][INFO]: Waiting for pending navigations...
+[1610306578.110][INFO]: Done waiting for pending navigations. Status: ok
+[1610306578.110][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE Navigate
+[1610306581.244][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306581.246][INFO]: Waiting for pending navigations...
+[1610306581.247][INFO]: Done waiting for pending navigations. Status: ok
+[1610306581.270][INFO]: Waiting for pending navigations...
+[1610306581.271][INFO]: Done waiting for pending navigations. Status: ok
+[1610306581.271][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306581.491][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306581.491][INFO]: Waiting for pending navigations...
+[1610306581.492][INFO]: Done waiting for pending navigations. Status: ok
+[1610306581.497][INFO]: Waiting for pending navigations...
+[1610306581.498][INFO]: Done waiting for pending navigations. Status: ok
+[1610306581.498][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306581.705][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306581.705][INFO]: Waiting for pending navigations...
+[1610306581.706][INFO]: Done waiting for pending navigations. Status: ok
+[1610306581.711][INFO]: Waiting for pending navigations...
+[1610306581.712][INFO]: Done waiting for pending navigations. Status: ok
+[1610306581.712][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306581.919][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306581.920][INFO]: Waiting for pending navigations...
+[1610306581.920][INFO]: Done waiting for pending navigations. Status: ok
+[1610306581.926][INFO]: Waiting for pending navigations...
+[1610306581.927][INFO]: Done waiting for pending navigations. Status: ok
+[1610306581.927][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306582.135][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306582.170][INFO]: Waiting for pending navigations...
+[1610306582.171][INFO]: Done waiting for pending navigations. Status: ok
+[1610306582.177][INFO]: Waiting for pending navigations...
+[1610306582.178][INFO]: Done waiting for pending navigations. Status: ok
+[1610306582.178][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306582.383][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306582.383][INFO]: Waiting for pending navigations...
+[1610306582.384][INFO]: Done waiting for pending navigations. Status: ok
+[1610306582.389][INFO]: Waiting for pending navigations...
+[1610306582.390][INFO]: Done waiting for pending navigations. Status: ok
+[1610306582.390][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306582.599][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306582.599][INFO]: Waiting for pending navigations...
+[1610306582.601][INFO]: Done waiting for pending navigations. Status: ok
+[1610306582.606][INFO]: Waiting for pending navigations...
+[1610306582.607][INFO]: Done waiting for pending navigations. Status: ok
+[1610306582.607][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306582.815][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306582.815][INFO]: Waiting for pending navigations...
+[1610306582.816][INFO]: Done waiting for pending navigations. Status: ok
+[1610306582.822][INFO]: Waiting for pending navigations...
+[1610306582.823][INFO]: Done waiting for pending navigations. Status: ok
+[1610306582.823][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306583.032][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306583.032][INFO]: Waiting for pending navigations...
+[1610306583.034][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.040][INFO]: Waiting for pending navigations...
+[1610306583.041][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.041][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306583.250][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306583.250][INFO]: Waiting for pending navigations...
+[1610306583.251][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.259][INFO]: Waiting for pending navigations...
+[1610306583.259][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.260][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306583.469][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306583.469][INFO]: Waiting for pending navigations...
+[1610306583.470][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.480][INFO]: Waiting for pending navigations...
+[1610306583.481][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.481][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306583.687][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306583.687][INFO]: Waiting for pending navigations...
+[1610306583.688][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.703][INFO]: Waiting for pending navigations...
+[1610306583.710][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.710][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306583.917][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306583.917][INFO]: Waiting for pending navigations...
+[1610306583.918][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.924][INFO]: Waiting for pending navigations...
+[1610306583.925][INFO]: Done waiting for pending navigations. Status: ok
+[1610306583.925][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306584.131][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306584.131][INFO]: Waiting for pending navigations...
+[1610306584.132][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.140][INFO]: Waiting for pending navigations...
+[1610306584.141][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.141][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306584.347][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306584.347][INFO]: Waiting for pending navigations...
+[1610306584.348][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.355][INFO]: Waiting for pending navigations...
+[1610306584.355][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.355][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306584.560][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306584.560][INFO]: Waiting for pending navigations...
+[1610306584.561][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.567][INFO]: Waiting for pending navigations...
+[1610306584.568][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.568][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306584.774][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306584.774][INFO]: Waiting for pending navigations...
+[1610306584.775][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.781][INFO]: Waiting for pending navigations...
+[1610306584.782][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.782][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306584.989][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@class, 'newsletter-popup') and @style='display: block;']"
+}
+[1610306584.989][INFO]: Waiting for pending navigations...
+[1610306584.990][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.997][INFO]: Waiting for pending navigations...
+[1610306584.998][INFO]: Done waiting for pending navigations. Status: ok
+[1610306584.998][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'newsletter-popup') and @style='display: block;']"}
+  (Session info: chrome=87.0.4280.88)
+[1610306585.205][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1610306585.206][INFO]: Waiting for pending navigations...
+[1610306585.206][INFO]: Done waiting for pending navigations. Status: ok
+[1610306585.221][INFO]: Waiting for pending navigations...
+[1610306585.222][INFO]: Done waiting for pending navigations. Status: ok
+[1610306585.222][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE ExecuteScript "\u003Chtml lang=\"ba\" data-default_lang=\"ba\" data-currency_code=\"BAM\" data-currency_display=\"%s \u003Cabbr>KM\u003C/abbr>\" data-currency_exchange=\"1\" style=\"\" class=\"js flexbox flexboxlegacy canvas canvastext webg..."
+[1610306585.285][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND Screenshot {
+
+}
+[1610306585.285][INFO]: Waiting for pending navigations...
+[1610306585.286][INFO]: Done waiting for pending navigations. Status: ok
+[1610306585.669][INFO]: Waiting for pending navigations...
+[1610306585.676][INFO]: Done waiting for pending navigations. Status: ok
+[1610306585.676][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKbCAYAAAAe6NH2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X1cVGXe+PHP8DCAgiDoymyuiIkPgBazmmjFKIqFlBtaS+mqlWz3Jt2bpkndZd2btqWbSbvJtt7YlpbppqIVWvmMJfjwGzJAUhTEMjADQUBggJnfHzOMPAwwI..."
+[1610306585.814][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND Screenshot {
+
+}
+[1610306585.814][INFO]: Waiting for pending navigations...
+[1610306585.816][INFO]: Done waiting for pending navigations. Status: ok
+[1610306586.230][INFO]: Waiting for pending navigations...
+[1610306586.231][INFO]: Done waiting for pending navigations. Status: ok
+[1610306586.232][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKbCAYAAAAe6NH2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X1cVGXe+PHP8DCAgiDoymyuiIkPgBazmmjFKIqFlBtaS+mqlWz3Jt2bpkndZd2btqWbSbvJtt7YlpbppqIVWvmMJfjwGzJAUhTEMjADQUBggJnfHzOMPAwwI..."
+[1610306586.311][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1610306586.311][INFO]: Waiting for pending navigations...
+[1610306586.312][INFO]: Done waiting for pending navigations. Status: ok
+[1610306586.327][INFO]: Waiting for pending navigations...
+[1610306586.329][INFO]: Done waiting for pending navigations. Status: ok
+[1610306586.329][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE ExecuteScript "\u003Chtml lang=\"ba\" data-default_lang=\"ba\" data-currency_code=\"BAM\" data-currency_display=\"%s \u003Cabbr>KM\u003C/abbr>\" data-currency_exchange=\"1\" style=\"\" class=\"js flexbox flexboxlegacy canvas canvastext webg..."
+[1610306587.145][INFO]: [08227f42df3a6774b23298fee98bac32] COMMAND Quit {
+
+}
+[1610306587.292][INFO]: [08227f42df3a6774b23298fee98bac32] RESPONSE Quit

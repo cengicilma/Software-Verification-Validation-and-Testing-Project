@@ -1,0 +1,196 @@
+[1610225774.489][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16661
+[1610225774.489][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610225775.698][INFO]: [646d62fc7503d5d31825cf19b6481d9f] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\korisnik\\Desktop\\IntellijProjekti\\demo\\build\\downloads\\1610225771756_10104_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\korisnik\\Desktop\\IntellijProjekti\\demo\\build\\downloads\\1610225771756_10104_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1610225775.712][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\korisnik\\Desktop\\IntellijProjekti\\demo\\build\\downloads\\1610225771756_10104_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610225775.721][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610225775.732][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\korisnik\AppData\Local\Temp\scoped_dir10808_1225883825" data:,
+[1610225776.893][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610225779.298][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610225781.450][INFO]: [646d62fc7503d5d31825cf19b6481d9f] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\korisnik\\AppData\\Local\\Temp\\scoped_dir10808_1225883825"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51588"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "646d62fc7503d5d31825cf19b6481d9f"
+}
+[1610225781.637][INFO]: [646d62fc7503d5d31825cf19b6481d9f] COMMAND MaximizeWindow {
+
+}
+[1610225781.637][INFO]: Waiting for pending navigations...
+[1610225781.640][INFO]: Done waiting for pending navigations. Status: ok
+[1610225781.765][INFO]: Waiting for pending navigations...
+[1610225781.766][INFO]: Done waiting for pending navigations. Status: ok
+[1610225781.766][INFO]: [646d62fc7503d5d31825cf19b6481d9f] RESPONSE MaximizeWindow {
+   "height": 754,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1610225781.775][INFO]: [646d62fc7503d5d31825cf19b6481d9f] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1610225781.775][INFO]: [646d62fc7503d5d31825cf19b6481d9f] RESPONSE SetTimeouts
+[1610225781.791][INFO]: [646d62fc7503d5d31825cf19b6481d9f] COMMAND Navigate {
+   "url": "https://technoshop.ba/"
+}
+[1610225781.791][INFO]: Waiting for pending navigations...
+[1610225781.792][INFO]: Done waiting for pending navigations. Status: ok
+[1610225782.347][INFO]: Waiting for pending navigations...
+[1610225811.791][SEVERE]: Timed out receiving message from renderer: 29.443
+[1610225811.791][INFO]: Timed out. Stopping navigation...
+[1610225811.792][SEVERE]: Timed out receiving message from renderer: 29.443
+[1610225811.792][INFO]: Done waiting for pending navigations. Status: timeout: Timed out receiving message from renderer: 29.443
+[1610225811.792][INFO]: [646d62fc7503d5d31825cf19b6481d9f] RESPONSE Navigate ERROR timeout: Timed out receiving message from renderer: 29.443
+  (Session info: chrome=87.0.4280.88)
+[1610225811.830][INFO]: [646d62fc7503d5d31825cf19b6481d9f] COMMAND Screenshot {
+
+}
+[1610225811.830][INFO]: Waiting for pending navigations...
+[1610225811.919][INFO]: Done waiting for pending navigations. Status: ok
+[1610225812.312][INFO]: Waiting for pending navigations...
+[1610225812.313][INFO]: Done waiting for pending navigations. Status: ok
+[1610225812.313][INFO]: [646d62fc7503d5d31825cf19b6481d9f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKbCAYAAAAe6NH2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd8FHX+P/DXpveEBA6CCAEVgYiitASQhaD4C7EQwAtFQIXzNHBnQQMenOUOTohg+Qo5joOzIGDugNAip9ISSmgiGEOQg0CkE9Pr1vn9sb3PbnazCbyej0ces..."
+[1610225812.350][INFO]: [646d62fc7503d5d31825cf19b6481d9f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1610225812.351][INFO]: Waiting for pending navigations...
+[1610225812.351][INFO]: Done waiting for pending navigations. Status: ok
+[1610225812.372][INFO]: Waiting for pending navigations...
+[1610225812.373][INFO]: Done waiting for pending navigations. Status: ok
+[1610225812.373][INFO]: [646d62fc7503d5d31825cf19b6481d9f] RESPONSE ExecuteScript "\u003Chtml lang=\"ba\" data-default_lang=\"ba\" data-currency_code=\"BAM\" data-currency_display=\"%s \u003Cabbr>KM\u003C/abbr>\" data-currency_exchange=\"1\" style=\"\" class=\"js flexbox flexboxlegacy canvas canvastext webg..."
+[1610225812.987][INFO]: [646d62fc7503d5d31825cf19b6481d9f] COMMAND Quit {
+
+}
+[1610225813.159][INFO]: [646d62fc7503d5d31825cf19b6481d9f] RESPONSE Quit
